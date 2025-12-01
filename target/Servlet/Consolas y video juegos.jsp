@@ -60,7 +60,7 @@
                 <h1 style="color: aliceblue">Nintendo SWITCH</h1>
                 <p style="color: aliceblue">Nintendo Switch por $7700.00.</p>
                 <div class="botones">
-                  <a href="resumenNintendo.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
+                  <a href="resumennintendo.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
                   <a href="index.jsp" class="btn-1" style="color: aliceblue">Inicio</a>
                 </div>
               </div>
@@ -79,7 +79,7 @@
                 <h1 style="color: aliceblue">Elden RING</h1>
                 <p style="color: aliceblue">Juego Elden RING para Xbox Series X por $2.99.</p>
                 <div class="botones">
-                  <a href="ResumenElden.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
+                  <a href="Resumenelden.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
                   <a href="index.jsp" class="btn-1" style="color: aliceblue">Inicio</a>
                 </div>
               </div>

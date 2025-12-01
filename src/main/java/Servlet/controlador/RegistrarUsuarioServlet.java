@@ -10,6 +10,10 @@ import java.io.IOException;
 import Servlet.dao.ClienteDAO;
 import Servlet.modelo.Cliente;
 
+/**
+ * Servlet que procesa el registro de usuarios.
+ * Recibe datos desde formulario.jsp y los guarda en la base de datos.
+ */
 @WebServlet("/registrarUsuario")
 public class RegistrarUsuarioServlet extends HttpServlet {
     private ClienteDAO clienteDAO = new ClienteDAO();
@@ -34,11 +38,11 @@ public class RegistrarUsuarioServlet extends HttpServlet {
             cliente.setTelefono(telefono);       // Telefono
             cliente.setCorreo(correo);           // Correo_Electronico
             cliente.setPassword(password);       // Password
-            // Insertar en la BD
+            // Insertar en la Base de datos
             clienteDAO.insertarCliente(cliente);
 
             // Redirigir al login después de registrar
-            response.sendRedirect("login.jsp");
+            response.sendRedirect("login.jsp?msg=Registro exitoso");
 
         } catch (Exception e) {
             e.printStackTrace();

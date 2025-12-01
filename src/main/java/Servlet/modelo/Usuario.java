@@ -1,5 +1,9 @@
 package Servlet.modelo;
 
+/**
+ * Clase que representa un Usuario dentro del sistema.
+ * Contiene atributos básicos para registro y autenticación.
+ */
 public class Usuario {
     private int id;
     private String nombre;
@@ -18,7 +22,7 @@ public class Usuario {
         this.password = password;
     }
 
-    // Getters y Setters
+    // Getters y Setters con estándares camelCase
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 

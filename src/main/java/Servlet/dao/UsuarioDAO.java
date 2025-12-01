@@ -7,6 +7,10 @@ import java.sql.ResultSet;
 import Servlet.modelo.Cliente;
 import Servlet.modelo.Usuario;
 
+/**
+ * Clase DAO para realizar operaciones CRUD sobre la tabla usuarios.
+ * Aplica el patrón DAO para separar la lógica de acceso a datos.
+ */
 public class UsuarioDAO {
 
     // Método para insertar un nuevo usuario
@@ -14,6 +18,8 @@ public class UsuarioDAO {
         String sql = "INSERT INTO usuarios (nombre, telefono, correo, password) VALUES (?, ?, ?, ?)";
         try (Connection con = ConexionBD.getConnection();
              PreparedStatement ps = con.prepareStatement(sql)) {
+
+            // Asignar parámetros al PreparedStatement
             ps.setString(1, usuario.getNombre());
             ps.setString(2, usuario.getTelefono());
             ps.setString(3, usuario.getCorreo());
@@ -22,7 +28,7 @@ public class UsuarioDAO {
         }
     }
 
-    // ✅ Método para validar login
+    //  Método para validar login
     public Cliente validarCliente(String correo, String Password) throws Exception {
     String sql = "SELECT * FROM clientes WHERE Correo_Electronico=? AND Password=?";
     try (Connection con = ConexionBD.getConnection();
@@ -45,5 +51,5 @@ public class UsuarioDAO {
     }
     return null; // si no encontró nada
 }
-
+// Aquí puedes añadir métodos adicionales como listar(), buscarPorCorreo(), eliminar(), actualizar()
 }
