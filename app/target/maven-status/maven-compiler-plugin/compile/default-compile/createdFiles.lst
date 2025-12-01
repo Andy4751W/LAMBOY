@@ -1,0 +1,6 @@
+com\sena\app\ListaClientesServlet.class
+com\sena\app\EditarClienteServlet.class
+com\sena\app\ClienteServlet.class
+com\sena\app\Cliente.class
+com\sena\app\ClienteDAO.class
+com\sena\app\EliminarClienteServlet.class
