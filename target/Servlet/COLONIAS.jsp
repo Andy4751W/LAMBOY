@@ -23,7 +23,12 @@
                 <p style="color: aliceblue;">Colonia para hombre Scandal por tan solo $300.00</p>
                 <div class="botones">
                   <a href="Resumenscandall.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="7"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -42,7 +47,12 @@
                 <p style="color: aliceblue;">Colonia para hombre One MILLION por $150.00.</p>
                 <div class="botones">
                   <a href="ResumenOnemillion.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="8"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -61,7 +71,12 @@
                 <p style="color: aliceblue;">Colonia AQVARI CRYSTAL para mujer por $500.00.</p>
                 <div class="botones">
                   <a href="ResumenAqvari.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="9"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -79,7 +94,12 @@
                 <p style="color: aliceblue;">Perfume MISS DIOR para mujer por $189.00.</p>
                 <div class="botones">
                   <a href="ResumenMissdior.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="10"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -97,7 +117,12 @@
                 <p style="color: aliceblue;">Perfume COCO CHANNELL para mujer por $130.00.</p>
                 <div class="botones">
                   <a href="Resumencocochannel.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="11"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -116,7 +141,12 @@
                 <p style="color: aliceblue;">Perfume SAUVAGE ELIXIR para hombre por $399.00.</p>
                 <div class="botones">
                   <a href="Resumensauvage.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="12"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">

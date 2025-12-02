@@ -23,7 +23,12 @@
                 <p style="color: aliceblue;">Disney + 1 mes por $2.99.</p>
                 <div class="botones">
                   <a href="ResumenDisney.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                   <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="13"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -40,7 +45,12 @@
                 <p style="color: aliceblue;">Netflix 1 mes por $2.99.</p>
                 <div class="botones">
                   <a href="ResumenNetflix.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                   <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="14"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -57,7 +67,12 @@
                 <p style="color: aliceblue;">HBO 1 mes por $2.99.</p>
                 <div class="botones">
                   <a href="ResumenHBO.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                   <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="15"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -74,7 +89,12 @@
                 <p style="color: aliceblue;">Prime Video 1 mes por $2.99.</p>
                 <div class="botones">
                   <a href="ResumenPrimevideo.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                   <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="16"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -91,7 +111,12 @@
                 <p style="color: aliceblue;">Crunchyroll 1 mes por $2.99.</p>
                 <div class="botones">
                   <a href="ResumenCrunchyroll.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                   <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="17"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -108,7 +133,12 @@
                 <p style="color: aliceblue;">STAR PLUS 1 mes por $2.99.</p>
                 <div class="botones">
                   <a href="ResumenStarPlus.jsp" class="btn-1" style="color: aliceblue;">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue;">Inicio</a>
+                   <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="18"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">

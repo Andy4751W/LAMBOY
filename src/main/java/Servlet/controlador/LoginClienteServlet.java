@@ -11,7 +11,7 @@ import java.io.IOException;
 import Servlet.dao.ClienteDAO;
 import Servlet.modelo.Cliente;
 
-@WebServlet("/loginCliente")
+@WebServlet("/loginClienteServlet")
 public class LoginClienteServlet extends HttpServlet {
     private ClienteDAO clienteDAO = new ClienteDAO();
 
@@ -21,15 +21,21 @@ public class LoginClienteServlet extends HttpServlet {
         try {
             // Capturar datos del formulario
             String correo = request.getParameter("correo");
-            String Password = request.getParameter("Password");
+            String password = request.getParameter("Password");
 
             // Validar cliente en la BD
-            Cliente cliente = clienteDAO.validarCliente(correo, Password);
+            Cliente cliente = clienteDAO.validarCliente(correo, password);
 
             if (cliente != null) {
                 // Cliente válido → crear sesión
                 HttpSession session = request.getSession();
+                
+                // Guardar objeto cliente completo
                 session.setAttribute("cliente", cliente);
+                
+                // Guardar atributos individuales para usarlos en compras
+                session.setAttribute("clienteCodigo", cliente.getCodigo());       // ID del cliente
+                session.setAttribute("clienteNombre", cliente.getNombre()); // Nombre del cliente
 
                 // Redirigir a página principal
                 response.sendRedirect("index.jsp");

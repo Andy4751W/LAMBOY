@@ -16,23 +16,30 @@
         <div class="swiper-wrapper">
 
           <!-- Play 5 -->
-          <div class="swiper-slide">
-            <div class="slider">
-              <div class="slider-txt">
-                <h1 style="color: aliceblue">PLAY 5</h1>
-                <p style="color: aliceblue">Play 5 slim de 1 tera por tan solo $22050.00</p>
-                <div class="botones">
-                  <a href="Resumenplay5.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue">Inicio</a>
-                </div>
-              </div>
-              <div class="slider-img">
-                <img src="img/PLAY 5.jpeg" alt="" />
-                <img src="img/play.webp" alt="" />
-                <img src="img/playy.webp" alt="" />
-              </div>
-            </div>
-          </div>
+<div class="swiper-slide">
+  <div class="slider">
+    <div class="slider-txt">
+      <h1 style="color: aliceblue">PLAY 5</h1>
+      <p style="color: aliceblue">Play 5 slim de 1 tera por tan solo $22050.00</p>
+      <div class="botones">
+        <!-- Botón que lleva al resumen -->
+        <a href="Resumenplay5.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
+        
+        <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="1"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
+      </div>
+    </div>
+    <div class="slider-img">
+      <img src="img/PLAY 5.jpeg" alt="" />
+      <img src="img/play.webp" alt="" />
+      <img src="img/playy.webp" alt="" />
+    </div>
+  </div>
+</div>
 
           <!-- Xbox -->
           <div class="swiper-slide">
@@ -42,7 +49,12 @@
                 <p style="color: aliceblue">Xbox One Series X de una tera por $9000.00.</p>
                 <div class="botones">
                   <a href="resumenxbox.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="2"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -61,7 +73,12 @@
                 <p style="color: aliceblue">Nintendo Switch por $7700.00.</p>
                 <div class="botones">
                   <a href="resumennintendo.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="3"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -80,7 +97,12 @@
                 <p style="color: aliceblue">Juego Elden RING para Xbox Series X por $2.99.</p>
                 <div class="botones">
                   <a href="Resumenelden.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="4"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -98,8 +120,13 @@
                 <h1 style="color: aliceblue">FIFA 25</h1>
                 <p style="color: aliceblue">Juego Fifa 25 Para Play 5/4 por $2.99.</p>
                 <div class="botones">
-                  <a href="resumenFifa.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue">Inicio</a>
+                  <a href="ResumenFifa.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="5"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">
@@ -118,7 +145,12 @@
                 <p style="color: aliceblue">Juego de Mario Kart Deluxe 8 para Nintendo Switch por $2.99.</p>
                 <div class="botones">
                   <a href="ResumenMarioKart.jsp" class="btn-1" style="color: aliceblue">Comprar</a>
-                  <a href="index.jsp" class="btn-1" style="color: aliceblue">Inicio</a>
+                  <!-- Formulario que agrega al carrito -->
+        <form action="CarritoServlet" method="post" style="display:inline;">
+          <input type="hidden" name="codigo" value="6"> <!-- ID del producto -->
+          <input type="hidden" name="cantidad" value="1">
+          <button type="submit" class="btn-1" style="color: black">Agregar al Carrito</button>
+        </form>
                 </div>
               </div>
               <div class="slider-img">

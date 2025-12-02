@@ -11,7 +11,7 @@
         <h1 style="color: aliceblue;">Inicio de Sesión</h1>
         
         <!-- Ahora el formulario envía datos al Servlet loginCliente -->
-        <form action="loginCliente" method="post">
+        <form action="loginClienteServlet" method="post">
             <div class="username">
                 <input type="email" name="correo" style="color: aliceblue;" required/>
                 <label style="color: rgb(84, 84, 84);">Correo electrónico</label>
